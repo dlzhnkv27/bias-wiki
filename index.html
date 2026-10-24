@@ -6,7 +6,7 @@
     <title>The Cognitive Bias Codex</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Tippy.js for tooltips -->
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="assets/vendor/popper.min.js"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
     <link
       rel="stylesheet"
@@ -56,6 +56,7 @@
     <link rel="alternate" hreflang="fr" href="?lang=fr" />
     <link rel="alternate" hreflang="pt" href="?lang=pt" />
     <link rel="alternate" hreflang="uk" href="?lang=uk" />
+    <link rel="alternate" hreflang="ru" href="?lang=ru" />
 
     <!-- Additional meta tags -->
     <meta name="robots" content="index, follow" />
@@ -70,10 +71,11 @@
     <div class="language-selector-container">
       <select id="language-selector">
         <option value="ca">Català</option>
-        <option value="en" selected>English</option>
+        <option value="en">English</option>
         <option value="eu">Euskara</option>
         <option value="fr">Français</option>
         <option value="pt">Português</option>
+        <option value="ru" selected>Русский</option>
         <option value="uk">Українська</option>
       </select>
     </div>
@@ -132,6 +134,7 @@
       </div>
     </div>
 
+    <script src="assets/js/inline_data.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>

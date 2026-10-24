@@ -175,3 +175,6 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 backup_biases_wp.html
+
+# Generated i18n bundle (from i18n/build_ru.py)
+assets/js/inline_data.js
